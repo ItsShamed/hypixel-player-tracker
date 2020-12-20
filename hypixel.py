@@ -53,6 +53,8 @@ try:
     keyQuery=query.get(f"https://api.hypixel.net/key", params={"key": sys.argv[1]}, headers=headers)
     
     if keyQuery.json()["success"]:
+        print(f"""Your key is valid.
+        You have {keyQuery.json()["record"]["limit"]-keyQuery.json()["record"]["queriesInPastMin"]} queries left for this minute.""")
         api_key = sys.argv[1]
     
     else:
