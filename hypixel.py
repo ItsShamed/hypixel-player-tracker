@@ -186,7 +186,13 @@ while __name__=="__main__":
                     timeout = 3
                 )
         else:
-
+            if previouslyConnected:
+                notification.notify(
+                    title = "Hypixel Player Tracker",
+                    message = f"{playerName} disconnected from the Network.",
+                    app_icon = "hypixel.ico",
+                    timeout = 3
+                )
             previouslyConnected=False # When the player disconnects we make sure this changes so that the notification will trigger again.
     
     except Exception as e:
