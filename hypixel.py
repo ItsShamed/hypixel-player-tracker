@@ -207,7 +207,7 @@ while __name__=="__main__":
         Error source: Python
         Traceback:
         {traceb}""")
-    time.sleep(2.5) # This value will prevent from doing too many requests. But surprisingly, it's super responsive!
+    time.sleep(3.5) # This value will prevent from doing too many requests.
                     # You can change this value if you want to prevent rate limit.
 
 ## EOF
