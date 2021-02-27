@@ -32,5 +32,6 @@ You can track multiple player by running multiple instances of the script, but r
 You can change the cooldown by modifying the last line of the script.
 A tip that I haven't tested yet, is to create multiple API Key on Hypixel, do it at your own risk.
 
-# DISCLAIMER
-## This was tested on Windows 10 only and has no guarantee to work on UNIX-like systems (that have desktop environment).
+# ~~DISCLAIMER
+## This was tested on Windows 10 only and has no guarantee to work on UNIX-like systems (that have desktop environment).~~
+### Works perfectly well on UNIX-like systems.
