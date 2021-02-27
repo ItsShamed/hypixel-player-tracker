@@ -34,4 +34,3 @@ A tip that I haven't tested yet, is to create multiple API Key on Hypixel, do it
 
 # ~~*DISCLAIMER*~~
 ## ~~*This was tested on Windows 10 only and has no guarantee to work on UNIX-like systems (that have desktop environment).*~~
-### Works perfectly well on UNIX-like systems.
